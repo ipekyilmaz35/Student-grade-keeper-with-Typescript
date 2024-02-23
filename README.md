@@ -11,3 +11,6 @@ These steps will help you to clone the project to your computer.
 You can use the this command link for cloning the project files to your computer:
 
 git clone https://github.com/ipekyilmaz35/Student-grade-keeper-with-Typescript.git
+
+## SAMPLE SCREEN APPEARANCE
+![There was a screenshot here](./screen.png)
