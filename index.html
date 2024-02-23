@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Note System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Student Note System</h1>
+        <div id="grade-form">
+            <input type="text" id="student-name" placeholder="Student Name">
+            <input type="text" id="subject" placeholder="Course Name">
+            <input type="number" id="grade" placeholder="Grade" min="0" max="100">
+            <button onclick="addGrade()">Add Grade</button>
+        </div>
+        <div id="results"></div>
+    </div>
+    <script src="dist/bundle.js"></script>
+</body>
+</html>
